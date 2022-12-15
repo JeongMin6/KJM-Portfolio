@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    position: relative;
+}
+.logo{
+    width: 100%;
+    height: 900px;
+    margin-bottom: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+.m_main_box01{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+
+}
+.main_box01{
+    width: 700px;
+    margin: 410px;
+    margin-top: 18px;
+    margin-bottom: 150px;
+}
+.main_box02{
+    margin: -20px;
+    margin-bottom: -300px;
+}
+.main_box03{
+    margin: 450px;
+    margin-top: -510px;
+    margin-bottom: 120px;
+}
+.main_box04{
+    margin: 450px;
+    margin-top: 18px;
+    margin-bottom: -40px;
+}
+.main_box05{
+    margin: 150px;
+    margin-top: 18px;
+    margin-bottom:-90px;
+}
+.main_box06{
+    margin: 450px;
+    margin-top: 18px;
+    margin-bottom: 150px;
+}
+.main_box07{
+    margin: 450px;
+    margin-top: 18px;
+    margin-bottom: 150px;
+}
+.main_box08{
+    margin: 450px;
+    margin-top: 18px;
+    margin-bottom: -100px;
+}
+.main_box09{
+    margin: 1530px;
+    margin-top: 18px;
+    margin-bottom:-90px;
+}
+.main_box10{
+    margin: 450px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+.footer_img{
+    margin: 0 auto;
+    width: 100%;
+    height: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid red;
+}
+
+
+/**모바일 시작**/
+
+.logo > .m_01_bg{
+    background-image: url('img/m_01_bg.png');
+    z-index: 1;
+    background-position: 20% 20%;
+    opacity: 0;
+}
+
+
+@media screen and (max-width:375px){
+.logo > img {
+    width: 1300px;
+}
+.main_box01 > img {
+    margin: -370px;
+    height: 1400px;
+    display: flex;
+}
+
+
+}
